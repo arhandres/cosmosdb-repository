@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ToDo.Domain
 {
+    //POCO
     public class TodoItem
     {
         public string Id { get; set; }
