@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseRepositoryCosmos.cs" />
     <Compile Include="BaseRepository.cs" />
     <Compile Include="ITodoRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

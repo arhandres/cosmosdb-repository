@@ -7,7 +7,7 @@ using ToDo.Domain;
 
 namespace ToDo.DataAccess
 {
-    public class TodoRepository : BaseRepository<TodoItem>, ITodoRepository
+    public class TodoRepository : BaseRepositoryCosmos<TodoItem>, ITodoRepository
     {
         public void CreateTodoItem(TodoItem todoItem)
         {
